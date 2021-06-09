@@ -1,1 +1,108 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  background: #eee;
+}
+
+.wrapper {
+  position: relative;
+  float: right;
+  width: calc(100% - 260px);
+}
+
+.m-250 {
+  margin-left: 250px !important;
+}
+
+/* margin top minus  */
+
+.m-45 {
+  margin-top: -45px !important;
+}
+
+.m-35 {
+  margin-top: -35px !important;
+}
+
+.m-30 {
+  margin-top: -30px !important;
+}
+
+.m-25 {
+  margin-top: -25px !important;
+}
+
+.m-20 {
+  margin-top: -20px !important;
+}
+
+
+/* colors */
+
+.color1 {
+  color: #0BB4C8;
+}
+
+.color2 {
+  color: #FE9F1A;
+}
+
+.color3 {
+  color: #4AA54E;
+}
+
+.color4 {
+  color: #E73F3C;
+}
+
+/* card background color */
+.c1 {
+  background: #0BB4C8;
+}
+
+.c2 {
+  background: #FE9F1A;
+}
+
+.c3 {
+  background: #4AA54E;
+}
+
+.c4 {
+  background: #E73F3C;
+}
+
+
+/* Custome Shadow */
+.shadow1 {
+  box-shadow: 0 0 2rem 0 rgba(136, 152, 170, 0.15) !important;
+}
+
+
+/* text */
+
+.text-muted {
+  color: #999 !important;
+}
+
+
+/* border */
+.br-10 {
+  border-radius: 10px;
+}
+
+.br-5 {
+  border-radius: 5px;
+}
+
+
+/* Media Query */
+
+@media (max-width: 768px) {
+  .wrapper {
+
+    width: 100% !important;
+  }
+
+
+}

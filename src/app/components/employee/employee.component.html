@@ -1,0 +1,39 @@
+<div class="wrapper">
+  <div class="container-fluid py-5">
+    <div class="card shadow1 border-0 my-5 ">
+      <header class="c1 m-35 mx-3">
+        <h5 class="text-white mb-0">Employee Table</h5>
+        <small class="text-white">Here is the complete list of employees</small>
+      
+      </header>
+
+      <div class="card py-5 border-0 px-4 ">
+        <table class="table table-borderless">
+          <thead class="pb-4">
+            <tr class="color1">
+              <th scope="col">#</th>
+              <th scope="col">Photo</th>
+              <th scope="col">First Name</th>
+              <th scope="col">Last Name</th>
+              <th scope="col">Nationality</th>
+              <th scope="col">Address</th>
+              <th scope="col">Salary</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let em of employees; index as i">
+              <th scope="row">{{i+1}}</th>
+              <td> <img src="{{em.photo}}" class="photos shadow"></td>
+              <td>{{em.firstName}} </td>
+              <td>{{em.lastName}} </td>
+              <td>{{em.nationality}} </td>
+              <td>{{em.address}} </td>
+              <td>{{em.salary}} </td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

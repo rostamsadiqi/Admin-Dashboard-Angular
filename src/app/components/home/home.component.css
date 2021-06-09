@@ -1,0 +1,19 @@
+/* top-cards  Section*/
+
+.top-card {
+  min-height: 80px !important;
+  border-radius: 5px;
+  padding: 25px 0 25px 0;
+  text-align: center;
+  max-width: 90px;
+}
+
+.top-card i {
+  color: #fff;
+  font-size: 30px;
+}
+
+.card-footer {
+  background: white;
+}
+
