@@ -1,25 +1,37 @@
-<nav class="navbar navbar-expand-lg navbar-light py-3">
+<nav class="navbar navbar-expand-md navbar-light py-3">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Dashboard</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler border-0 bg-white" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <!-- Desktop -->
+      <ul class="navbar-nav ms-auto mb-2 desktop">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-layer-group"></i></a>
+          <a class="nav-link " aria-current="page" href="#"><i class="fas fa-layer-group"></i></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">
-            <i class="fas fa-bell"> <span class="badge c4 d-none d-sm-none d-md-block">5</span> </i>
-           
+            <i class="fas fa-bell"> <span class="badge c4 ">5</span> </i>
           </a>
         </li>
-
         <li class="nav-item">
           <a class="nav-link " href="#"><i class="fas fa-user"></i></a>
         </li>
+      </ul>
+
+      <!-- Mobile -->
+      <ul class="navbar-nav ms-auto my-2 mobile d-none">
+        <li class="nav-item  ">
+          <a class="nav-link" routerLink="/" routerLinkActive="active"> <i class="fas fa-desktop"></i> Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="employees" routerLinkActive="active"> <i class="fas fa-users"></i>
+            Employee</a>
+        </li>
+
       </ul>
 
     </div>

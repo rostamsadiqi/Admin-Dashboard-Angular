@@ -19,3 +19,39 @@ i {
   display: block;
   border: 1px solid #fff;
 }
+
+
+
+@media (max-width: 768px) {
+  .navbar {
+    background: #0BB4C8;
+  }
+
+  .navbar-brand {
+    color: white;
+  }
+
+  .nav-link {
+    color: white !important;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  i {
+    font-size: 18px;
+    color: #fff;
+    padding-right: 10px;
+  }
+
+  /* navbar desktop */
+  .desktop {
+    display: none !important;
+  }
+
+  /* navbar mobile */
+  .mobile {
+    display: block !important;
+  }
+}
