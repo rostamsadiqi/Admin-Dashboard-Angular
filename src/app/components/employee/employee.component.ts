@@ -16,7 +16,7 @@ export class EmployeeComponent implements OnInit {
       salary: '$ 450',
     },
     {
-      photo: '../../../assets/imgs/pexels-pixabay-220453.jpg',
+      photo: 'assets/imgs/pexels-pixabay-220453.jpg',
       firstName: 'Ahmad',
       lastName: 'Khan',
       nationality: 'Afghan',
@@ -24,7 +24,7 @@ export class EmployeeComponent implements OnInit {
       salary: '$ 450',
     },
     {
-      photo: '../../../assets/imgs/pexels-pixabay-220453.jpg',
+      photo: 'assets/imgs/pexels-pixabay-220453.jpg',
       firstName: 'Ahmad',
       lastName: 'Khan',
       nationality: 'Afghan',
@@ -32,7 +32,7 @@ export class EmployeeComponent implements OnInit {
       salary: '$ 450',
     },
     {
-      photo: '../../../assets/imgs/pexels-pixabay-220453.jpg',
+      photo: 'assets/imgs/pexels-pixabay-220453.jpg',
       firstName: 'Ahmad',
       lastName: 'Khan',
       nationality: 'Afghan',
@@ -40,7 +40,7 @@ export class EmployeeComponent implements OnInit {
       salary: '$ 450',
     },
     {
-      photo: '../../../assets/imgs/pexels-pixabay-220453.jpg',
+      photo: 'assets/imgs/pexels-pixabay-220453.jpg',
       firstName: 'Ahmad',
       lastName: 'Khan',
       nationality: 'Afghan',
@@ -48,7 +48,7 @@ export class EmployeeComponent implements OnInit {
       salary: '$ 450',
     },
     {
-      photo: '../../../assets/imgs/pexels-pixabay-220453.jpg',
+      photo: '.assets/imgs/pexels-pixabay-220453.jpg',
       firstName: 'Ahmad',
       lastName: 'Khan',
       nationality: 'Afghan',
@@ -56,7 +56,7 @@ export class EmployeeComponent implements OnInit {
       salary: '$ 450',
     },
     {
-      photo: '../../../assets/imgs/2.jpg',
+      photo: 'assets/imgs/2.jpg',
       firstName: 'Ahmad',
       lastName: 'Khan',
       nationality: 'Afghan',
@@ -64,7 +64,7 @@ export class EmployeeComponent implements OnInit {
       salary: '$ 450',
     },
     {
-      photo: '../../../assets/imgs/pexels-pixabay-220453.jpg',
+      photo: 'assets/imgs/pexels-pixabay-220453.jpg',
       firstName: 'Ahmad',
       lastName: 'Khan',
       nationality: 'Afghan',
@@ -72,7 +72,7 @@ export class EmployeeComponent implements OnInit {
       salary: '$ 450',
     },
     {
-      photo: '../../../assets/imgs/2.jpg',
+      photo: 'assets/imgs/2.jpg',
       firstName: 'Ahmad',
       lastName: 'Khan',
       nationality: 'Afghan',
@@ -80,7 +80,7 @@ export class EmployeeComponent implements OnInit {
       salary: '$ 450',
     },
     {
-      photo: '../../../assets/imgs/pexels-pixabay-220453.jpg',
+      photo: 'assets/imgs/pexels-pixabay-220453.jpg',
       firstName: 'Ahmad',
       lastName: 'Khan',
       nationality: 'Afghan',
@@ -88,7 +88,7 @@ export class EmployeeComponent implements OnInit {
       salary: '$ 450',
     },
     {
-      photo: '../../../assets/imgs/2.jpg',
+      photo: 'assets/imgs/2.jpg',
       firstName: 'Ahmad',
       lastName: 'Khan',
       nationality: 'Afghan',
@@ -96,7 +96,7 @@ export class EmployeeComponent implements OnInit {
       salary: '$ 450',
     },
     {
-      photo: '../../../assets/imgs/pexels-pixabay-220453.jpg',
+      photo: 'assets/imgs/pexels-pixabay-220453.jpg',
       firstName: 'Ahmad',
       lastName: 'Khan',
       nationality: 'Afghan',
@@ -104,7 +104,7 @@ export class EmployeeComponent implements OnInit {
       salary: '$ 450',
     },
     {
-      photo: '../../../assets/imgs/pexels-pixabay-220453.jpg',
+      photo: 'assets/imgs/pexels-pixabay-220453.jpg',
       firstName: 'Ahmad',
       lastName: 'Khan',
       nationality: 'Afghan',
