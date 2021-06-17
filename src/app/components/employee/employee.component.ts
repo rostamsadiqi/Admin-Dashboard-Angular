@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class EmployeeComponent implements OnInit {
   employees = [
     {
-      photo: '../../../assets/imgs/pexels-pixabay-220453.jpg',
+      photo: 'assets/imgs/pexels-pixabay-220453.jpg',
       firstName: 'Ahmad',
       lastName: 'Khan',
       nationality: 'Afghan',
