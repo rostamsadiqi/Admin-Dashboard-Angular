@@ -1,4 +1,4 @@
-# AdminDashboards
+# Angular Admin Dashboard 
 Demo Link: https://rostamsadiqi.github.io/admindashboard/home
 
 
